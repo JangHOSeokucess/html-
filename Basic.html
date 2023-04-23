@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .font-bold{
+            font-weight: bold;
+        }
+        .font-style{
+            font-style: italic;
+        }
+        .font-size{
+            font-size: 2em;
+        }
+        .font-center{
+            text-align: center;
+        }
+        .button > a {
+                display: block;
+                line-height: 70px;
+                text-decoration: none;
+            }
+        .button{
+            width: 200px;
+            height: 70px;
+            background-color: violet;
+            border: 10px solid white;
+            border-radius:  30px;
+            box-shadow: 5px 5px 5px rgba(194, 187, 187, 0.872) ;  
+            float: left;
+        }
+        a:hover {color: darkblue;}
+        body{
+            background-image: url(roro.jpg);
+            background-size: 100% 750px}        
+        .text{
+            text-align: right;
+            color: white;
+
+        }
+    
+
+        .box{color: aliceblue;
+            text-align: center;
+            text-shadow: 20px 15px 0px rgb(126, 70, 70,0.42);
+            background: #00e9ff;
+            background: linear-gradient(272deg,#00e9ff 0%, #5595d5 80%);
+            background: -webkit-linear-gradient(272deg,#00e9ff 0%, #5595d5 80%);
+            background: -moz-linear-gradient(272deg,#00e9ff 0%, #5595d5 80%);
+            
+        
+        }
+    </style>
+</head>
+<body> 
+    <div>
+    <legend>
+        <h1 class="box">코딩 클럽!</h1>
+    </legend>
+    </div>
+    
+    <div class="button" width: 200px; height: 70px >
+        <a href="pagenum" class="font_bold font-size font-center font-style">CodingJang</a>
+    </div> 
+    
+    <br><br>
+    <div class="text">
+        <h4>궁금한걸 검색하세요!</h4>
+        <input type="text">
+        <input type="button" name="검색" id="검색" value="검색">
+    </div>
+    
+    
+</body>
+</html>
